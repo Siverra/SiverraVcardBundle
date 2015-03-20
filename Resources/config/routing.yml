@@ -1,3 +1,3 @@
-LilaConceptsBestPracticeBundle_homepage:
+SiverraVcardBundle_homepage:
     pattern:  /hello/{name}
-    defaults: { _controller: LilaConceptsBestPracticeBundle:Default:index }
+    defaults: { _controller: SiverraVcardBundle:Default:index }

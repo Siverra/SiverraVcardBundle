@@ -1,5 +1,5 @@
 {
-    "name": "LilaConcepts/LilaConceptsBestPracticeBundle",
+    "name": "Siverra/SiverraVcardBundle",
     "version": "1.0.0-alpha",
     "description": "Simple common, starter, empty, boilerplate-bundle to show best practice bundle development for Symfony2.1. This bundle has the right directory structure, coding standards, unittests and functional tests. It uses the Travis Continuous Integration buildbot, Composer for dependency management and Twig for templating. Read the documentation and fork/clone if you wish.",
     "keywords": ["symfony", "development", "bundle"],
@@ -7,14 +7,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Andre Lambert",
-            "email": "afj.lambert@me.com",
-            "homepage": "http://digitaalcv.nl/"
-        },
-        {
-            "name": "Evert Littooy",
-            "email": "evertonline@gmail.com",
-            "homepage": "http://littooy.nl/"
+            "name": "Simon Verraest",
+            "email": "simon.verraest@gmail.com",
+            "homepage": "http://www.siverra.be/"
         }
     ],
     "require": {
@@ -23,7 +18,7 @@
         "symfony/symfony": "2.*"
     },
     "autoload":     {
-        "psr-0": { "LilaConcepts\\Bundle\\LilaConceptsBestPracticeBundle": "" }
+        "psr-0": { "Siverra\\Bundle\\SiverraVcardBundle": "" }
     },
-    "target-dir": "LilaConcepts/Bundle/LilaConceptsBestPracticeBundle"
+    "target-dir": "Siverra/Bundle/SiverraVcardBundle"
 }

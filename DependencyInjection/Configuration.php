@@ -1,6 +1,6 @@
 <?php
 
-namespace LilaConcepts\Bundle\LilaConceptsBestPracticeBundle\DependencyInjection;
+namespace Siverra\Bundle\SiverraVcardBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -13,17 +13,16 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 class Configuration implements ConfigurationInterface
 {
     /**
-     * {@inheritDoc}
+     * @return TreeBuilder
      */
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('lilaconcepts_bestpractice');
+        $rootNode = $treeBuilder->root('siverra_vcard');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
         // more information on that topic.
-
         return $treeBuilder;
     }
 }
